@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fFH-Kf-WgQ">
+            <objects>
+                <tabBarController id="EvJ-Uc-StU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HgE-9I-z8W"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hoW-h1-UFE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RdW-UL-gvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4665" y="-842"/>
+        </scene>
+        <!--趣图吧-->
+        <scene sceneID="91L-Pm-vtO">
+            <objects>
+                <navigationController id="kMA-E7-nGS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="趣图吧" id="o1B-8U-Knq"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sbj-XT-UKn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EvJ-Uc-StU" kind="relationship" relationship="rootViewController" id="7ET-PM-ms6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Udt-Lf-byF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3959" y="-358"/>
+        </scene>
+        <!--笑一笑-->
+        <scene sceneID="n45-kf-NZf">
+            <objects>
+                <navigationController id="tAY-ib-i42" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="笑一笑" id="4tj-Xd-mgm"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KxP-Fs-a2f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EvJ-Uc-StU" kind="relationship" relationship="rootViewController" id="gX9-Wc-yDe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZK8-YZ-Vnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3959" y="-1058"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="7ET-PM-ms6"/>
+    </inferredMetricsTieBreakers>
+</document>

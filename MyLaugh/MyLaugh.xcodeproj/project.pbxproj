@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2394F732670572DCAB7F6210 /* libPods-MyLaugh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD8092F684F4E456F8FFA8B /* libPods-MyLaugh.a */; };
+		8C7F159A1F57B12F00C45368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15991F57B12F00C45368 /* main.m */; };
+		8C7F159D1F57B12F00C45368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F159C1F57B12F00C45368 /* AppDelegate.m */; };
+		8C7F15A61F57B12F00C45368 /* MyLaugh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15A41F57B12F00C45368 /* MyLaugh.xcdatamodeld */; };
+		8C7F15A81F57B12F00C45368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7F15A71F57B12F00C45368 /* Assets.xcassets */; };
+		8C7F15AB1F57B12F00C45368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7F15A91F57B12F00C45368 /* LaunchScreen.storyboard */; };
+		8C7F15B61F57B12F00C45368 /* MyLaughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15B51F57B12F00C45368 /* MyLaughTests.m */; };
+		8C7F15C11F57B12F00C45368 /* MyLaughUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15C01F57B12F00C45368 /* MyLaughUITests.m */; };
+		8C7F15D01F57BD4C00C45368 /* VCxiao.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15CF1F57BD4C00C45368 /* VCxiao.m */; };
+		8C7F15D31F57BD7500C45368 /* VCPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15D21F57BD7500C45368 /* VCPicture.m */; };
+		8C7F15D61F57C01000C45368 /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15D51F57C01000C45368 /* TextTableViewCell.m */; };
+		8C7F15D91F57FAF500C45368 /* MyNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15D81F57FAF500C45368 /* MyNetworking.m */; };
+		8C7F15DC1F58013100C45368 /* RootDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F15DB1F58013100C45368 /* RootDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C7F15B21F57B12F00C45368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C7F158D1F57B12F00C45368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C7F15941F57B12F00C45368;
+			remoteInfo = MyLaugh;
+		};
+		8C7F15BD1F57B12F00C45368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C7F158D1F57B12F00C45368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C7F15941F57B12F00C45368;
+			remoteInfo = MyLaugh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0991EA2112066920208245B4 /* Pods-MyLaugh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLaugh.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MyLaugh/Pods-MyLaugh.release.xcconfig"; sourceTree = "<group>"; };
+		8C7F15951F57B12F00C45368 /* MyLaugh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLaugh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7F15991F57B12F00C45368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C7F159B1F57B12F00C45368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C7F159C1F57B12F00C45368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C7F15A51F57B12F00C45368 /* MyLaugh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLaugh.xcdatamodel; sourceTree = "<group>"; };
+		8C7F15A71F57B12F00C45368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C7F15AA1F57B12F00C45368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C7F15AC1F57B12F00C45368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C7F15B11F57B12F00C45368 /* MyLaughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLaughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7F15B51F57B12F00C45368 /* MyLaughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLaughTests.m; sourceTree = "<group>"; };
+		8C7F15B71F57B12F00C45368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C7F15BC1F57B12F00C45368 /* MyLaughUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLaughUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7F15C01F57B12F00C45368 /* MyLaughUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLaughUITests.m; sourceTree = "<group>"; };
+		8C7F15C21F57B12F00C45368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C7F15CE1F57BD4C00C45368 /* VCxiao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCxiao.h; path = ../VCxiao.h; sourceTree = "<group>"; };
+		8C7F15CF1F57BD4C00C45368 /* VCxiao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCxiao.m; path = ../VCxiao.m; sourceTree = "<group>"; };
+		8C7F15D11F57BD7500C45368 /* VCPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPicture.h; sourceTree = "<group>"; };
+		8C7F15D21F57BD7500C45368 /* VCPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPicture.m; sourceTree = "<group>"; };
+		8C7F15D41F57C01000C45368 /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
+		8C7F15D51F57C01000C45368 /* TextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableViewCell.m; sourceTree = "<group>"; };
+		8C7F15D71F57FAF500C45368 /* MyNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNetworking.h; sourceTree = "<group>"; };
+		8C7F15D81F57FAF500C45368 /* MyNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNetworking.m; sourceTree = "<group>"; };
+		8C7F15DA1F58013100C45368 /* RootDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootDataModel.h; sourceTree = "<group>"; };
+		8C7F15DB1F58013100C45368 /* RootDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootDataModel.m; sourceTree = "<group>"; };
+		9F0DA3B9B043F0EAB545E3D0 /* Pods-MyLaugh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLaugh.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MyLaugh/Pods-MyLaugh.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD8092F684F4E456F8FFA8B /* libPods-MyLaugh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyLaugh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C7F15921F57B12F00C45368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2394F732670572DCAB7F6210 /* libPods-MyLaugh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F15AE1F57B12F00C45368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F15B91F57B12F00C45368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283C715277CDB46B7FBD9F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDD8092F684F4E456F8FFA8B /* libPods-MyLaugh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C7F158C1F57B12F00C45368 = {
+			isa = PBXGroup;
+			children = (
+				8C7F15971F57B12F00C45368 /* MyLaugh */,
+				8C7F15B41F57B12F00C45368 /* MyLaughTests */,
+				8C7F15BF1F57B12F00C45368 /* MyLaughUITests */,
+				8C7F15961F57B12F00C45368 /* Products */,
+				CB79104637413141EAE76AF4 /* Pods */,
+				283C715277CDB46B7FBD9F01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C7F15961F57B12F00C45368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F15951F57B12F00C45368 /* MyLaugh.app */,
+				8C7F15B11F57B12F00C45368 /* MyLaughTests.xctest */,
+				8C7F15BC1F57B12F00C45368 /* MyLaughUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C7F15971F57B12F00C45368 /* MyLaugh */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F159B1F57B12F00C45368 /* AppDelegate.h */,
+				8C7F159C1F57B12F00C45368 /* AppDelegate.m */,
+				8C7F15CE1F57BD4C00C45368 /* VCxiao.h */,
+				8C7F15CF1F57BD4C00C45368 /* VCxiao.m */,
+				8C7F15D11F57BD7500C45368 /* VCPicture.h */,
+				8C7F15D21F57BD7500C45368 /* VCPicture.m */,
+				8C7F15D41F57C01000C45368 /* TextTableViewCell.h */,
+				8C7F15D51F57C01000C45368 /* TextTableViewCell.m */,
+				8C7F15D71F57FAF500C45368 /* MyNetworking.h */,
+				8C7F15D81F57FAF500C45368 /* MyNetworking.m */,
+				8C7F15DA1F58013100C45368 /* RootDataModel.h */,
+				8C7F15DB1F58013100C45368 /* RootDataModel.m */,
+				8C7F15A71F57B12F00C45368 /* Assets.xcassets */,
+				8C7F15A91F57B12F00C45368 /* LaunchScreen.storyboard */,
+				8C7F15AC1F57B12F00C45368 /* Info.plist */,
+				8C7F15A41F57B12F00C45368 /* MyLaugh.xcdatamodeld */,
+				8C7F15981F57B12F00C45368 /* Supporting Files */,
+			);
+			path = MyLaugh;
+			sourceTree = "<group>";
+		};
+		8C7F15981F57B12F00C45368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F15991F57B12F00C45368 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C7F15B41F57B12F00C45368 /* MyLaughTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F15B51F57B12F00C45368 /* MyLaughTests.m */,
+				8C7F15B71F57B12F00C45368 /* Info.plist */,
+			);
+			path = MyLaughTests;
+			sourceTree = "<group>";
+		};
+		8C7F15BF1F57B12F00C45368 /* MyLaughUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F15C01F57B12F00C45368 /* MyLaughUITests.m */,
+				8C7F15C21F57B12F00C45368 /* Info.plist */,
+			);
+			path = MyLaughUITests;
+			sourceTree = "<group>";
+		};
+		CB79104637413141EAE76AF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DA3B9B043F0EAB545E3D0 /* Pods-MyLaugh.debug.xcconfig */,
+				0991EA2112066920208245B4 /* Pods-MyLaugh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C7F15941F57B12F00C45368 /* MyLaugh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7F15C51F57B12F00C45368 /* Build configuration list for PBXNativeTarget "MyLaugh" */;
+			buildPhases = (
+				ECADD8FC67B0682D0076F1AA /* [CP] Check Pods Manifest.lock */,
+				8C7F15911F57B12F00C45368 /* Sources */,
+				8C7F15921F57B12F00C45368 /* Frameworks */,
+				8C7F15931F57B12F00C45368 /* Resources */,
+				4763AC88B1C4142BF8A0ECAD /* [CP] Embed Pods Frameworks */,
+				EFCD661ECF801B41F4F608EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLaugh;
+			productName = MyLaugh;
+			productReference = 8C7F15951F57B12F00C45368 /* MyLaugh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C7F15B01F57B12F00C45368 /* MyLaughTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7F15C81F57B12F00C45368 /* Build configuration list for PBXNativeTarget "MyLaughTests" */;
+			buildPhases = (
+				8C7F15AD1F57B12F00C45368 /* Sources */,
+				8C7F15AE1F57B12F00C45368 /* Frameworks */,
+				8C7F15AF1F57B12F00C45368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C7F15B31F57B12F00C45368 /* PBXTargetDependency */,
+			);
+			name = MyLaughTests;
+			productName = MyLaughTests;
+			productReference = 8C7F15B11F57B12F00C45368 /* MyLaughTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C7F15BB1F57B12F00C45368 /* MyLaughUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7F15CB1F57B12F00C45368 /* Build configuration list for PBXNativeTarget "MyLaughUITests" */;
+			buildPhases = (
+				8C7F15B81F57B12F00C45368 /* Sources */,
+				8C7F15B91F57B12F00C45368 /* Frameworks */,
+				8C7F15BA1F57B12F00C45368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C7F15BE1F57B12F00C45368 /* PBXTargetDependency */,
+			);
+			name = MyLaughUITests;
+			productName = MyLaughUITests;
+			productReference = 8C7F15BC1F57B12F00C45368 /* MyLaughUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C7F158D1F57B12F00C45368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = qinxianjin;
+				TargetAttributes = {
+					8C7F15941F57B12F00C45368 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X9RT6C5CX7;
+						ProvisioningStyle = Automatic;
+					};
+					8C7F15B01F57B12F00C45368 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X9RT6C5CX7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C7F15941F57B12F00C45368;
+					};
+					8C7F15BB1F57B12F00C45368 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X9RT6C5CX7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C7F15941F57B12F00C45368;
+					};
+				};
+			};
+			buildConfigurationList = 8C7F15901F57B12F00C45368 /* Build configuration list for PBXProject "MyLaugh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C7F158C1F57B12F00C45368;
+			productRefGroup = 8C7F15961F57B12F00C45368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C7F15941F57B12F00C45368 /* MyLaugh */,
+				8C7F15B01F57B12F00C45368 /* MyLaughTests */,
+				8C7F15BB1F57B12F00C45368 /* MyLaughUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C7F15931F57B12F00C45368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F15AB1F57B12F00C45368 /* LaunchScreen.storyboard in Resources */,
+				8C7F15A81F57B12F00C45368 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F15AF1F57B12F00C45368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F15BA1F57B12F00C45368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4763AC88B1C4142BF8A0ECAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MyLaugh/Pods-MyLaugh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECADD8FC67B0682D0076F1AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCD661ECF801B41F4F608EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MyLaugh/Pods-MyLaugh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C7F15911F57B12F00C45368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F15D91F57FAF500C45368 /* MyNetworking.m in Sources */,
+				8C7F15DC1F58013100C45368 /* RootDataModel.m in Sources */,
+				8C7F159D1F57B12F00C45368 /* AppDelegate.m in Sources */,
+				8C7F15D01F57BD4C00C45368 /* VCxiao.m in Sources */,
+				8C7F159A1F57B12F00C45368 /* main.m in Sources */,
+				8C7F15A61F57B12F00C45368 /* MyLaugh.xcdatamodeld in Sources */,
+				8C7F15D61F57C01000C45368 /* TextTableViewCell.m in Sources */,
+				8C7F15D31F57BD7500C45368 /* VCPicture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F15AD1F57B12F00C45368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F15B61F57B12F00C45368 /* MyLaughTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F15B81F57B12F00C45368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F15C11F57B12F00C45368 /* MyLaughUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C7F15B31F57B12F00C45368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C7F15941F57B12F00C45368 /* MyLaugh */;
+			targetProxy = 8C7F15B21F57B12F00C45368 /* PBXContainerItemProxy */;
+		};
+		8C7F15BE1F57B12F00C45368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C7F15941F57B12F00C45368 /* MyLaugh */;
+			targetProxy = 8C7F15BD1F57B12F00C45368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C7F15A91F57B12F00C45368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C7F15AA1F57B12F00C45368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C7F15C31F57B12F00C45368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C7F15C41F57B12F00C45368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C7F15C61F57B12F00C45368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0DA3B9B043F0EAB545E3D0 /* Pods-MyLaugh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9RT6C5CX7;
+				INFOPLIST_FILE = MyLaugh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qxj.MyLaugh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7F15C71F57B12F00C45368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0991EA2112066920208245B4 /* Pods-MyLaugh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9RT6C5CX7;
+				INFOPLIST_FILE = MyLaugh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qxj.MyLaugh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C7F15C91F57B12F00C45368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X9RT6C5CX7;
+				INFOPLIST_FILE = MyLaughTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qxj.MyLaughTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLaugh.app/MyLaugh";
+			};
+			name = Debug;
+		};
+		8C7F15CA1F57B12F00C45368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X9RT6C5CX7;
+				INFOPLIST_FILE = MyLaughTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qxj.MyLaughTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLaugh.app/MyLaugh";
+			};
+			name = Release;
+		};
+		8C7F15CC1F57B12F00C45368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X9RT6C5CX7;
+				INFOPLIST_FILE = MyLaughUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qxj.MyLaughUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyLaugh;
+			};
+			name = Debug;
+		};
+		8C7F15CD1F57B12F00C45368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X9RT6C5CX7;
+				INFOPLIST_FILE = MyLaughUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qxj.MyLaughUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyLaugh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C7F15901F57B12F00C45368 /* Build configuration list for PBXProject "MyLaugh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7F15C31F57B12F00C45368 /* Debug */,
+				8C7F15C41F57B12F00C45368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7F15C51F57B12F00C45368 /* Build configuration list for PBXNativeTarget "MyLaugh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7F15C61F57B12F00C45368 /* Debug */,
+				8C7F15C71F57B12F00C45368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7F15C81F57B12F00C45368 /* Build configuration list for PBXNativeTarget "MyLaughTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7F15C91F57B12F00C45368 /* Debug */,
+				8C7F15CA1F57B12F00C45368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7F15CB1F57B12F00C45368 /* Build configuration list for PBXNativeTarget "MyLaughUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7F15CC1F57B12F00C45368 /* Debug */,
+				8C7F15CD1F57B12F00C45368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C7F15A41F57B12F00C45368 /* MyLaugh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C7F15A51F57B12F00C45368 /* MyLaugh.xcdatamodel */,
+			);
+			currentVersion = 8C7F15A51F57B12F00C45368 /* MyLaugh.xcdatamodel */;
+			path = MyLaugh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C7F158D1F57B12F00C45368 /* Project object */;
+}
